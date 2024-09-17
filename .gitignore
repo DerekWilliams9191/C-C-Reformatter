@@ -7,6 +7,12 @@
 *.o
 *.obj
 
+# C Files
+*.c
+*.cpp
+*.h
+*.hpp
+
 # Precompiled Headers
 *.gch
 *.pch
