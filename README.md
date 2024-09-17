@@ -41,8 +41,14 @@ cd C-Reformatter
 ## Usage
 
 Create two directories
-/input/
-/output/
+
+-input
+-output
+
+.
+├── main.py
+├── input/
+└── output/
 
 Place the working C code to into the input folder, the run the program and view the output folder
 
@@ -54,21 +60,18 @@ python3 main.py
 
 Example
 Before:
-
 ```bash
-c
 int main() {
     printf("Hello, World!");
+    return 0;
 }
 ```
 
 After:
-
 ```bash
-c
-int main()                        {
-    printf("Hello, World!")        ;
-}                                  ;
+int main()                                             {
+    printf("Hello, World!")                            ;
+    return 0                                           };
 ```
 
 Why Would I Want This?
