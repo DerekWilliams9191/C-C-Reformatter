@@ -44,11 +44,12 @@ Create two directories
 
 -input
 -output
-
+```
 .
 ├── main.py
 ├── input/
 └── output/
+```
 
 Place the working C code to into the input folder, the run the program and view the output folder
 
